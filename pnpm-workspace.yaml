@@ -26,15 +26,6 @@ catalog:
   vite: ^8.1.2
   webpack: ^5.108.3
 
-onlyBuiltDependencies:
-  - '@parcel/watcher'
-  - bun
-  - esbuild
-  - sharp
-  - tree-sitter
-  - tree-sitter-javascript
-  - tree-sitter-typescript
-
 allowBuilds:
   '@parcel/watcher': true
   bun: true
